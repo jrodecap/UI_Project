@@ -202,3 +202,41 @@ Processing by UsersController#new as HTML
 Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 15175)
 
 
+Started GET "/" for 69.12.46.167 at 2020-03-20 01:19:07 +0000
+Cannot render console from 69.12.46.167! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1062.8ms | Allocations: 1350064)
+  Rendered layouts/_rails_default.html.erb (Duration: 25.3ms | Allocations: 15476)
+  Rendered layouts/_shim.html.erb (Duration: 0.8ms | Allocations: 88)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 266)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 187)
+Completed 200 OK in 1105ms (Views: 1099.5ms | ActiveRecord: 0.0ms | Allocations: 1369038)
+
+
+Started GET "/" for 69.12.46.167 at 2020-03-20 01:19:09 +0000
+Cannot render console from 69.12.46.167! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 684)
+  Rendered layouts/_rails_default.html.erb (Duration: 11.5ms | Allocations: 14072)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 90)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 49)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 18095)
+
+
+Started GET "/signup" for 69.12.46.167 at 2020-03-20 01:19:12 +0000
+Cannot render console from 69.12.46.167! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 107)
+  Rendered layouts/_rails_default.html.erb (Duration: 11.9ms | Allocations: 14268)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 51)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 15871)
+
+
