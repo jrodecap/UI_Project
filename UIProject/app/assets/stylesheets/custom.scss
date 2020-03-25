@@ -49,14 +49,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -65,19 +65,23 @@ h2 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.5em;
   line-height: 1.7em;
 }
 
 
 /* header */
 
+
+.navbar-inverse {
+     background-color: #0a4b75;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
