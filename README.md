@@ -30,5 +30,4 @@ $ rails server
 $ rails db:seed
 ```
 ### Admin account loggin information:
-Email: AdminUser@AdminUser.com
-Password: AdminUser
+Email: AdminUser@AdminUser.com       Password: AdminUser
