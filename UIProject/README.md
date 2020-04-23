@@ -37,6 +37,11 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+To get the mobile drop down menu to work run:
+
+```
+$ yarn add jquery@3.4.1 bootstrap@3.4.1
+```
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
