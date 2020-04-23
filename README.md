@@ -29,5 +29,10 @@ $ rails server
 ```
 $ rails db:seed
 ```
+To get the mobile drop down menu to work run:
+
+```
+$ yarn add jquery@3.4.1 bootstrap@3.4.1
+```
 ### Admin account loggin information:
 Email: AdminUser@AdminUser.com       Password: AdminUser
