@@ -24,3 +24,8 @@ Then you can run the server:
 ```
 $ rails server
 ```
+
+If you want an admin account, run the following command to generate one
+```
+$ rails db:seed
+```
